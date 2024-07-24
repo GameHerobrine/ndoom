@@ -26,7 +26,7 @@
 #define __D_MAIN__
 
 #include "d_event.h"
-
+#include "screen.h"
 #ifdef __GNUG__
 #pragma interface
 #endif
@@ -42,7 +42,7 @@
 #define MAXWADFILES             20
 
 extern char*		wadfiles[MAXWADFILES];
-
+extern unsigned char sscreen[SCREEN_SIZE];
 
 void D_AddFile (char *file);
 

@@ -243,7 +243,8 @@ void I_ReadScreen (byte* scr)
 {
     memcpy (scr, screens[0], SCREENWIDTH*SCREENHEIGHT);
 }
-extern unsigned char sscreen[SCREEN_SIZE];
+
+//extern unsigned char sscreen[SCREEN_SIZE];
 void I_DispHeader()
 {	memcpy(getScreen(),sscreen,SCREEN_SIZE);
 	//LOADING text

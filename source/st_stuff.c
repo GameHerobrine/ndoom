@@ -1059,7 +1059,7 @@ void ST_doPaletteStuff(void)
 		I_TogglePalette(1,0);
     }
     else if ( plyr->powers[pw_ironfeet] > 4*32 || plyr->powers[pw_ironfeet]&8)
-		I_TogglePalette(1,1);
+		I_TogglePalette(1,0); //sfx && !dark -> green
 		//palette = RADIATIONPAL;
     else
 		I_TogglePalette(0,0);

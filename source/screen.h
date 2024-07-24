@@ -12,3 +12,4 @@ unsigned int getContrast();
 void drwBufStr(uint16_t* buf, uint16_t x, uint16_t y, char* str, uint8_t ret, uint8_t trsp);
 void putBufChar(uint16_t* buf, uint16_t x, uint16_t y, char ch, uint8_t trsp);
 void setBufPixel(uint16_t* buf, uint16_t x, uint16_t  y, uint16_t color);
+extern unsigned char sscreen1[SCREEN_SIZE];

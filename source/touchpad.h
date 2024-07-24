@@ -1,6 +1,9 @@
+#ifndef __TOUCHPAD__
+#define __TOUCHPAD__
+
 #define TOUCHPAD_DELAY	45
 
-touchpad_report_t* tpreport;
+extern touchpad_report_t* tpreport;
 
 void initTP();
 void endTP();
@@ -13,3 +16,5 @@ int getY_Velocity();
 int isTPTouched();
 int isTPPressed();
 int isTouchPad();
+
+#endif
